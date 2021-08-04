@@ -363,8 +363,7 @@ promote-to-latest:
   triggers:
     - schedule:
         # Thursday mornings at 10a mountain
-        cron: 15 17 * * 3
-        #        cron: 0 16 * * 4
+        cron: 0 16 * * 4
         filters:
           branches:
             only:
