@@ -4,6 +4,9 @@
     "outDir": "dist",
     "typeRoots": ["./node_modules/@types"],
     "baseUrl": "./",
+    "paths": {
+      "@salesforce/source-deploy-retrieve": ["@salesforce/source-deploy-retrieve"]
+    },
     "strict": true,
     "declaration": false,
     "allowJs": true,
