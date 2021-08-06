@@ -4,10 +4,6 @@
     "outDir": "dist",
     "typeRoots": ["./node_modules/@types"],
     "baseUrl": "./",
-    "paths": {
-      "@salesforce/core": ["node_modules/@salesforce/core"],
-      "@salesforce/ts-types": ["node_modules/@salesforce/ts-types"]
-    },
     "strict": true,
     "declaration": false,
     "allowJs": true,
